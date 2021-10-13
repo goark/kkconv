@@ -17,26 +17,25 @@ import "github.com/spiegel-im-spiegel/kkconv"
 
 ```go
 import (
-	"fmt"
+    "fmt"
 
-	"github.com/spiegel-im-spiegel/kkconv"
+    "github.com/spiegel-im-spiegel/kkconv"
 )
 
 func ExampleHiragana() {
-	txt := "こんにちは ｾｶｲ"
-	fmt.Println(kkconv.Hiragana(txt, true))
-	// Output:
-	// こんにちは せかい
+    txt := "こんにちは ｾｶｲ"
+    fmt.Println(kkconv.Hiragana(txt, true))
+    // Output:
+    // こんにちは せかい
 }
 
 func ExampleKatakana() {
-	txt := "こんにちは ｾｶｲ"
-	fmt.Println(kkconv.Katakana(txt, true))
-	// Output:
-	// コンニチハ セカイ
+    txt := "こんにちは ｾｶｲ"
+    fmt.Println(kkconv.Katakana(txt, true))
+    // Output:
+    // コンニチハ セカイ
 }
 ```
-
 
 ## Modules Requirement Graph
 
