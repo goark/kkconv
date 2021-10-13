@@ -19,7 +19,7 @@ func ConvertNarrow(txt string) string {
 
 func convertStringWidth(f width.Transformer, txt string) string {
 	if f == width.Narrow {
-		return NewReplaceerHalfWidthkana().Replace(f.String(NewReplaceerkanaNFD().Replace(txt)))
+		return NewReplaceerHalfWidthkana().Replace(f.String(NewReplaceerKanaNFD().Replace(txt)))
 	}
 	return NewReplaceerkanaNFC().Replace(f.String(txt))
 }

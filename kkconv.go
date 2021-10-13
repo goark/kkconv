@@ -12,10 +12,11 @@ func Hiragana(txt string, foldFlag bool) string {
 
 //Hiragana function converts katakana character in the string.
 func Katakana(txt string, foldFlag bool) string {
+	txt = replaceKatakana(txt)
 	if foldFlag {
 		txt = fold.Convert(txt)
 	}
-	return replaceKatakana(txt)
+	return txt
 }
 
 //Chokuon function converts youon (拗音) to chokuon (直音).
