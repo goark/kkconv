@@ -1,16 +1,18 @@
 # [kkconv] -- Hiragana-Katakana Conversion
 
-[![check vulns](https://github.com/spiegel-im-spiegel/kkconv/workflows/vulns/badge.svg)](https://github.com/spiegel-im-spiegel/kkconv/actions)
-[![lint status](https://github.com/spiegel-im-spiegel/kkconv/workflows/lint/badge.svg)](https://github.com/spiegel-im-spiegel/kkconv/actions)
-[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/spiegel-im-spiegel/kkconv/master/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/spiegel-im-spiegel/kkconv.svg)](https://github.com/spiegel-im-spiegel/kkconv/releases/latest)
+[![check vulns](https://github.com/goark/kkconv/workflows/vulns/badge.svg)](https://github.com/goark/kkconv/actions)
+[![lint status](https://github.com/goark/kkconv/workflows/lint/badge.svg)](https://github.com/goark/kkconv/actions)
+[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/goark/kkconv/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/goark/kkconv.svg)](https://github.com/goark/kkconv/releases/latest)
 
 This package is required Go 1.16 or later.
+
+**Migrated repository to [github.com/goark/kkconv][kkconv]**
 
 ## Import package
 
 ```go
-import "github.com/spiegel-im-spiegel/kkconv"
+import "github.com/goark/kkconv"
 ```
 
 ## Usage
@@ -19,7 +21,7 @@ import "github.com/spiegel-im-spiegel/kkconv"
 import (
     "fmt"
 
-    "github.com/spiegel-im-spiegel/kkconv"
+    "github.com/goark/kkconv"
 )
 
 func ExampleHiragana() {
@@ -41,4 +43,4 @@ func ExampleKatakana() {
 
 [![dependency.png](./dependency.png)](./dependency.png)
 
-[kkconv]: https://github.com/spiegel-im-spiegel/kkconv "spiegel-im-spiegel/kkconv: Hiragana-Katakana Conversion"
+[kkconv]: https://github.com/goark/kkconv "goark/kkconv: Hiragana-Katakana Conversion"

@@ -1,4 +1,4 @@
-module github.com/spiegel-im-spiegel/kkconv
+module github.com/goark/kkconv
 
 go 1.17
 

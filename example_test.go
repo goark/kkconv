@@ -3,7 +3,7 @@ package kkconv_test
 import (
 	"fmt"
 
-	"github.com/spiegel-im-spiegel/kkconv"
+	"github.com/goark/kkconv"
 )
 
 func ExampleHiragana() {

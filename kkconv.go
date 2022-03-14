@@ -1,6 +1,6 @@
 package kkconv
 
-import "github.com/spiegel-im-spiegel/kkconv/fold"
+import "github.com/goark/kkconv/fold"
 
 //Hiragana function converts hiragana character in the string.
 func Hiragana(txt string, foldFlag bool) string {
